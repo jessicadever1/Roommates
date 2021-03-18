@@ -12,5 +12,6 @@ namespace Roommates.Models
         public int RentPortion { get; set; }
         public DateTime MovedInDate { get; set; }
         public Room Room { get; set; }
+        public string RoomName { get; internal set; }
     }
 }
